@@ -137,7 +137,7 @@ const addModal = (data1,data2,data3) =>{
             </div>
             <div class="modal-body">
             <img class="img-fluid" style ="height: 400px; width:100%" src="${data3}">
-            <p class="mt-3"> Reported By: ${data2 ? data2 : "No Name Found"} </p>
+            <p class="mt-3"> Reported By: ${data2 ? data2 : "No name Found"} </p>
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
